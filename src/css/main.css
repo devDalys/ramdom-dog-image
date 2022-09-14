@@ -53,6 +53,7 @@ button {
   align-items: center;
   justify-content: center;
 }
-.photos img {
-  max-width: 30%;
+.photos__wrapper {
+  padding: 10px;
+  max-width: 100%;
 }

@@ -1,5 +1,9 @@
+interface Dog {
+	url?: string,
+	fileSizeBytes?: number
+}
 export interface dogType {
-	dogs: any[];
+	dogs: Dog;
 	loading: boolean;
 	error: null | string;
 }
