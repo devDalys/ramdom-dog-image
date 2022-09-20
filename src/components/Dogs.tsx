@@ -27,6 +27,7 @@ const Dogs: React.FC = () => {
 					Хочу ещё{' '}
 				</Button>
 			</div>
+			
 			{loading && (
 				<div className="loader">
 					<span className="loader__title">Хороший мальчий уже бежит</span>
