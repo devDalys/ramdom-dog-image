@@ -19,7 +19,11 @@ const Dogs: React.FC = () => {
 		<div className="container">
 			<div className="container__header">
 				<h1 className="container__header-title">Собаки это очень мило, посмотри сам</h1>
-				<Button variant="contained" className={'container__header-btn'} onClick={() => dispatch<any>(fetchDogs())}>
+				<Button
+					variant="contained"
+					className={'container__header-btn'}
+					onClick={() => dispatch<any>(fetchDogs())}
+				>
 					Хочу ещё{' '}
 				</Button>
 			</div>
